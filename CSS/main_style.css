@@ -6,6 +6,8 @@
     --accent: rgb(185, 135, 10)
 }
 
+/* GENERAL */
+
 * {
     font-family: Dosis;
     font-size: 1em;
@@ -13,6 +15,7 @@
     padding: 0;
     margin: 0;
     color: var(--primary);
+    /* background-color: var(--secondary); */
 }
 
 /* TOP MENU STYLE */
@@ -78,9 +81,9 @@ nav {
     width: 100%;
 }
 
-/* FOOTER */
+/* FOOTER GENERAL */
 
-.doorzichtigeFooter {
+.doorzichtigeFooter, .blauweFooter {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -89,9 +92,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0);
-
 }
 
 .copyright {
@@ -108,4 +108,21 @@ nav {
     max-height: 2em;
     padding: 0.5em;
     display: inline-flex;
+}
+
+/* TRANSPARANT FOOTER */
+
+.doorzichtigeFooter {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* BLUE FOOTER */
+
+.blauweFooter {
+    background-color: var(--primary);
+}
+
+.blauweFooter .copyright {
+    color: var(--secondary);
 }
