@@ -5,46 +5,191 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NB Portfolio - Curriculum Vitae</title>
-    <link rel="stylesheet" href="CSS/main_style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/default.css">
 </head>
 
 <body>
     <header>
-
         <nav>
-            <div class="logo">
-                <a href="index.html" class="imageLink">
-                    <img src="Images/Logo_doorzichtig.png" alt="NB Projects logo">
-                </a>
-            </div>
-
-            <ul class="menu">
-                <li>
-                    <a href="index.html" class="menuLink">Home</a>
-                </li>
-                <li>
-                    <a href="Projecten.html" class="menuLink">Projecten</a>
-                </li>
-                <li>
-                    <a href="about_me.html" class="menuLink">About me</a>
-                </li>
-                <li>
-                    <a href="Hobby.html" class="menuLink">Hobby</a>
-                </li>
-                <li>
-                    <a href="CV.html" class="activePage">CV</a>
-                </li>
-                <li>
-                    <a href="Contact.html" class="menuLink">Contact</a>
-                </li>
-            </ul>
+            <a href="index.html"><img src="Images/Logo_doorzichtig.png" alt="NB Projects logo"></a>
+            <a href="index.html">Home</a>
+            <a href="CV.html" class="active">CV</a>
+            <a href="ervaring.html">Ervaring</a>
+            <a href="hobby.html">Hobby</a>
+            <a href="contact.html">Contact</a>
         </nav>
-
     </header>
 
-    <div class="doorzichtigeFooter">
-        <span class="copyright">&copy; Nikolaas Brems</span>
+    <div class="grid-container-CV">
+        <aside class="sidebar">
+            <h1 class="titel">talen</h1>
+            <table class="talen">
+                <tr>
+                    <td>Nederlands</td>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="157" height="25" viewBox="0 0 157 25"
+                            fill="none">
+                            <circle cx="12.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="45.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="78.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="111.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="144.5" cy="12.5" r="10" fill="#B9870A" />
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Engels</td>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="157" height="25" viewBox="0 0 157 25"
+                            fill="none">
+                            <circle cx="12.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="45.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="78.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="111.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="144.5" cy="12.5" r="10" fill="#B9870A" />
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Frans</td>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="25" viewBox="0 0 150 25"
+                            fill="none">
+                            <circle cx="12.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="45.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="78.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="111.5" cy="12.5" r="6" fill="#505050" />
+                            <circle cx="144.5" cy="12.5" r="6" fill="#505050" />
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Duits</td>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="25" viewBox="0 0 150 25"
+                            fill="none">
+                            <circle cx="12.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="45.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="78.5" cy="12.5" r="6" fill="#505050" />
+                            <circle cx="111.5" cy="12.5" r="6" fill="#505050" />
+                            <circle cx="144.5" cy="12.5" r="6" fill="#505050" />
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Japans</td>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="25" viewBox="0 0 150 25"
+                            fill="none">
+                            <circle cx="12.5" cy="12.5" r="10" fill="#B9870A" />
+                            <circle cx="45.5" cy="12.5" r="6" fill="#505050" />
+                            <circle cx="78.5" cy="12.5" r="6" fill="#505050" />
+                            <circle cx="111.5" cy="12.5" r="6" fill="#505050" />
+                            <circle cx="144.5" cy="12.5" r="6" fill="#505050" />
+                        </svg>
+                    </td>
+                </tr>
+            </table>
+
+            <h2 class="titel">competenties</h2>
+            <ul class="competenties">
+                <li>Rijbewijs A & B</li>
+                <li>Certificaat SQL (VDAB)</li>
+                <li>Certificaat HTML5 (VDAB)</li>
+                <li>Certificaat CSS (VDAB)</li>
+            </ul>
+        </aside>
+
+        <main class="mainCV">
+            <h2 class="titel">ervaring</h2>
+            <table class="ervaring">
+                <tr>
+                    <td class="periode" rowspan="2">2020 - 2023</td>
+                    <td class="job">Sort Control Senior Officer<span>– DHL Aviation NV, Melsbroek</span></td>
+                </tr>
+                <tr>
+                    <td class="beschrijving">Monitoring van de automatische sorteermachine en bijsturen waar nodig,
+                        opzetten
+                        en onderhouden van sorplannen.</td>
+                </tr>
+                <tr>
+                    <td class="periode" rowspan="2">2017 - 2023</td>
+                    <td class="job">CIS Facilitator<span> – DHL Aviation NV, Melsbroek</span></td>
+                </tr>
+                <tr>
+                    <td class="beschrijving">Geven van vorming aan nieuwe werknemers, algemene kennismaking met het
+                        bedrijf
+                    </td>
+                </tr>
+                <tr>
+                    <td class="periode" rowspan="2">2017 - 2020</td>
+                    <td class="job">Customer Service / Tracing Agent<span> – DHL Aviation NV, Melsbroek</span></td>
+                </tr>
+                <tr>
+                    <td class="beschrijving">Opvolgen van belangrijke zendingen, eerste contactpunt voor andere
+                        faciliteiten/klantendiensten wereldwijd, opzetten van Sameday levering voor dringende
+                        zendingen.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="periode" rowspan="2">2015 - 2017</td>
+                    <td class="job">FED Agent<span> – DHL Aviation NV, Zaventem</span></td>
+                </tr>
+                <tr>
+                    <td class="beschrijving">Behandelen van zendingen die hun normale weg niet kunnen vervolgen in
+                        het
+                        netwerk, zij het door dataproblemen, customs handling, beschadigde of missende labels, etc.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="periode" rowspan="2">2014 - 2015</td>
+                    <td class="job">Dangerous Goods Clerk<span> – DHL Aviation NV, Zaventem</span></td>
+                </tr>
+                <tr>
+                    <td class="beschrijving">Checken en correct laden van gecontrolleerde goederen, zoals potentieel
+                        gevaarlijke producten, levende dieren en nucleair materiaal voor luchttransport.</td>
+                </tr>
+                <tr>
+                    <td class="periode" rowspan="2">2012 - 2014</td>
+                    <td class="job">Loader / Sorter<span> – DHL Aviation NV, Zaventem</span></td>
+                </tr>
+                <tr>
+                    <td class="beschrijving">Laden en lossen van vliegtuigcontainers.</td>
+                </tr>
+                <tr>
+                    <td class="periode" rowspan="2">2009 - 2012</td>
+                    <td class="job">Mechanieker / verkoper (weekendwerk)<span> - De Fietsgarage, Holsbeek</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="beschrijving">Reparatie en montage van fietsen, verkoop van nieuwe fietsen en
+                        toebehoren,
+                        algemeen winkelbediende.</td>
+                </tr>
+            </table>
+
+            <h2 class="titel">opleiding</h2>
+            <table class="ervaring">
+                <tr>
+                    <td class="periode" id="jaartal" rowspan="4">2009</td>
+                    <td class="job">TSO 3de graad Secundair onderwijs Chemie</td>
+                </tr>
+                <tr>
+                    <td class="beschrijving">Damiaan Instituut, Aarschot</td>
+                </tr>
+                <tr>
+                    <td class="job">Prof. Bach. Onderwijs: Secundair onderwijs Techniek-Informatica</td>
+                </tr>
+                <tr>
+                    <td class="beschrijving">Groep-T, Leuven - Niet voltooid</td>
+                </tr>
+            </table>
+        </main>
+    </div>
+
+    <footer class="doorzichtigeFooter">
+        <span class="copyright" id="special">&copy; Nikolaas Brems</span>
         <div class="contactImage">
             <a href="https://www.linkedin.com/in/klaas-brems-9549a520b/">
                 <img src="Images/LinkedIn_blauw.png" alt="link naar LinkedIn">
@@ -53,7 +198,7 @@
                 <img src="Images/github_square_blauw.png" alt="Link naar GitHub">
             </a>
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>
