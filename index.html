@@ -1,52 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NB Portfolio - Home</title>
-    <link rel="stylesheet" href="CSS/main_style.css">
+    <meta name="author" content="Nikolaas Brems">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="">
+    <title>NB-Portfolio - Home</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/default.css">
 </head>
 
 <body>
     <header>
-
         <nav>
-            <div class="logo">
-                <a href="index.html" class="imageLink">
-                    <img src="Images/Logo_doorzichtig.png" alt="NB Projects logo">
-                </a>
-            </div>
-
-            <ul class="menu">
-                <li>
-                    <a href="index.html" class="activePage">Home</a>
-                </li>
-                <li>
-                    <a href="Projecten.html" class="menuLink">Projecten</a>
-                </li>
-                <li>
-                    <a href="about_me.html" class="menuLink">About me</a>
-                </li>
-                <li class="hidden">
-                    <a href="Hobby.html" class="menuLink">Hobby</a>
-                </li>
-                <li class="hidden">
-                    <a href="CV.html" class="menuLink">CV</a>
-                </li>
-                <li class="hidden">
-                    <a href="Contact.html" class="menuLink">Contact</a>
-                </li>
-            </ul>
+            <a href="index.html"><img src="Images/Logo_doorzichtig.png" alt="NB Projects logo"></a>
+            <a href="index.html" class="active">Home</a>
+            <a href="CV.html">CV</a>
+            <a href="ervaring.html">Ervaring</a>
+            <a href="hobby.html">Hobby</a>
+            <a href="contact.html">Contact</a>
         </nav>
-
     </header>
 
-    <div class="projectImage">
-        <img src="Images/placeholder_1_website_large2.jpg" alt="project placeholder">
-    </div>
-    <div class="doorzichtigeFooter">
+    <main class="mainHome">
+        <img src="Images/KlaasBrems2.jpg" alt="profielfoto van mezelf">
+        <article>
+            <h1>Hallo!</h1>
+            <p>Ik ben Nikolaas Brems, maar je mag me gewoon Klaas noemen. </p>
+            <p>Van jongs af aan had ik een gezonde interesse
+                in technologie, elektronica en computers. Als nieuwsgierig kind, vond ik niets leuker dan dingen
+                ontleden om te ontdekken hoe ze werkten. In mijn tienerjaren begon ik me te verdiepen in de wereld van
+                computers en ik kon urenlang bezig zijn met het verkennen van instellingen, het oplossen van problemen
+                en niet stoppen totdat ik de oplossing had gevonden. </p>
+            <p>Mijn reis in de wereld van programmeren begon in
+                2022, toen ik SQL ontdekte en merkte hoe boeiend dat was. Dit leidde tot mijn interesse in web
+                development en begon ik met het verkennen van HTML, CSS en JavaScript via webcursussen van de VDAB.
+                Uiteindelijk was ik zo gepassioneerd over dit vakgebied dat ik mijn carrière vaarwel heb gezegd en me
+                heb omgeschoold tot programmeur aan Thomas More in Geel, met deze website als resultaat! </p>
+            <p> Als je meer
+                over mij wilt weten, nodig ik je uit om mijn Hobby- en CV-pagina te bezoeken. Je kunt ook contact met me
+                opnemen via de Contactpagina, waar je links vindt naar mijn LinkedIn- en GitHub-accounts.</p>
+        </article>
+    </main>
+
+    <footer class="doorzichtigeFooter">
         <span class="copyright">&copy; Nikolaas Brems</span>
         <div class="contactImage">
             <a href="https://www.linkedin.com/in/klaas-brems-9549a520b/">
@@ -56,8 +55,7 @@
                 <img src="Images/github_square_blauw.png" alt="Link naar GitHub">
             </a>
         </div>
-    </div>
-
+    </footer>
 </body>
 
 </html>
