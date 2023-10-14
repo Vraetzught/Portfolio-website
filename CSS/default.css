@@ -147,7 +147,7 @@ footer {
 .grid-container-CV {
     display: grid;
     grid-template-columns: 30% 70%;
-    padding-top: 7.5em;
+    padding-top: 5.5em;
 }
 
 .sidebar {
