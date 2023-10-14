@@ -218,6 +218,15 @@ footer {
     padding: 7.5em 2em 0 2em;
 }
 
+/* --- placeholder --- */
+
+.mainExp>h1 {
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
 /* HOBBY CONTENT */
 .mainHobby {
     padding: 7.5em 2em 4em 2em;
