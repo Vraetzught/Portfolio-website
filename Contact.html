@@ -5,55 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NB Portfolio - Contact</title>
-    <link rel="stylesheet" href="CSS/main_style.css">
+    <link rel="stylesheet" href="CSS/default.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
-
         <nav>
-            <div class="logo">
-                <a href="index.html" class="imageLink">
-                    <img src="Images/Logo_doorzichtig.png" alt="NB Projects logo">
-                </a>
-            </div>
-
-            <ul class="menu">
-                <li>
-                    <a href="index.html" class="menuLink">Home</a>
-                </li>
-                <li>
-                    <a href="Projecten.html" class="menuLink">Projecten</a>
-                </li>
-                <li>
-                    <a href="about_me.html" class="menuLink">About me</a>
-                </li>
-                <li>
-                    <a href="Hobby.html" class="menuLink">Hobby</a>
-                </li>
-                <li>
-                    <a href="CV.html" class="menuLink">CV</a>
-                </li>
-                <li>
-                    <a href="Contact.html" class="activePage">Contact</a>
-                </li>
-            </ul>
+            <a href="index.html" class="active"><img src="Images/Logo_doorzichtig.png" alt="NB Projects logo"></a>
+            <a href="index.html">Home</a>
+            <a href="CV.html">CV</a>
+            <a href="ervaring.html">Ervaring</a>
+            <a href="hobby.html">Hobby</a>
+            <a href="contact.html" class="active">Contact</a>
         </nav>
-
     </header>
 
-    <div class="doorzichtigeFooter">
+    <main class="mainContact">
+        <section class="contactForm">
+            <h1 class="titel">Contact</h1>
+            <form action="#" method="post">
+                <div>
+                    <label for="name" class="question">Naam</label>
+                    <input type="text" name="name" id="name" class="field" required>
+                </div>
+
+                <div>
+                    <h4 class="question">Hoe kan ik je bereiken</h4>
+                    <div>
+                        <label for="mail">e-mail: </label>
+                        <input type="email" name="email" id="mail" class="field" required>
+                    </div>
+                    <div>
+                        <label for="phone">telefoon: </label>
+                        <input type="tel" name="phone" id="phone" class="field">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="subject" class="question">Onderwerp</label>
+                    <input type="text" name="subject" id="subject" class="field"></div>
+
+                <div>
+                    <label for="message" class="question">Hoe kan ik helpen</label>
+                    <textarea name="message" id="message" cols="30" rows="5" class="field" required></textarea>
+                </div>
+
+                <input type="submit" value="Send!" class="button">
+
+            </form>
+        </section>
+
+        <section class="socialLinks">
+            <h2 class="titel">Bekijk mijn profielen</h2>
+            <div>
+                <a href="https://www.linkedin.com/in/klaas-brems-9549a520b/">
+                    <img src="Images/LinkedIn_blauw.png" alt="link naar LinkedIn">
+                </a>
+                <a href="https://github.com/Vraetzught">
+                    <img src="Images/github_square_blauw.png" alt="Link naar GitHub">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="doorzichtigeFooter">
         <span class="copyright">&copy; Nikolaas Brems</span>
-        <div class="contactImage">
-            <a href="https://www.linkedin.com/in/klaas-brems-9549a520b/">
-                <img src="Images/LinkedIn_blauw.png" alt="link naar LinkedIn">
-            </a>
-            <a href="https://github.com/Vraetzught">
-                <img src="Images/github_square_blauw.png" alt="Link naar GitHub">
-            </a>
-        </div>
-    </div>
+    </footer>
 </body>
 
 </html>

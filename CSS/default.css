@@ -30,7 +30,7 @@ body {
     font-size: 2em;
     border-bottom: 0.1em solid var(--accent);
     text-transform: uppercase;
-    width: 90%;
+    width: 100%;
 }
 
 /* HEADER MENU */
@@ -45,10 +45,7 @@ nav {
     padding-right: 10em;
 }
 
-nav a img {
-    width: 4em;
-    margin: 0.5em;
-}
+
 
 nav a {
     float: left;
@@ -60,6 +57,11 @@ nav a {
     margin: auto;
 }
 
+nav a img {
+    width: 3em;
+    margin: 0.3em;
+}
+
 nav a.active {
     color: var(--accent);
     text-decoration: underline;
@@ -68,6 +70,7 @@ nav a.active {
 nav a:hover:not(.active) {
     transform: translate(0, -0.3em);
     text-decoration: underline;
+
 }
 
 /* FOOTER GENERAL */
@@ -211,7 +214,9 @@ footer {
 }
 
 /* ERVARING CONTENT */
-
+.mainExp {
+    padding: 7.5em 2em 0 2em;
+}
 
 /* HOBBY CONTENT */
 .mainHobby {
@@ -255,5 +260,90 @@ footer {
     margin-top: 4.5em;
 }
 
+/* CONTACT CONTENT */
+.mainContact {
+    padding: 0 2em;
+    padding-top: 7.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.mainContact .titel {
+    text-transform: none;
+}
+
+.contactForm {
+    margin: 2em;
+}
+
+.contactForm form {
+    padding: 3em;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    height: 70vh;
+}
+
+.field {
+    border: none;
+    background-color: var(--secondary);
+    border-bottom: 0.1em solid var(--primary);
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1em;
+    font-family: inherit;
+    resize: none;
+    outline: none;
+}
+
+.question {
+    font-size: 1.3em;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 0.5em;
+}
+
+
+
+.button {
+    padding: 0.5em;
+    margin: auto;
+    margin-top: 0.5em;
+    background: var(--primary);
+    border: none;
+    border-bottom: 0.3em solid var(--accent);
+    border-radius: 10px;
+    width: 40%;
+    color: var(--accent);
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    transform: translateY(3px);
+}
+
+.socialLinks{
+    margin: 2em;
+    height: 70vh;
+}
+
+.socialLinks div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20% 0;
+    gap: 4em;
+    text-align: center;
+}
+
+.socialLinks img {
+    object-fit: contain;
+    width: 100%;
+    max-width: 250px;
+}
+
+.socialLinks>div>a>img:hover {
+    transform: translateY(-5px);
+}
 
