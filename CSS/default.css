@@ -45,8 +45,6 @@ nav {
     padding-right: 10em;
 }
 
-
-
 nav a {
     float: left;
     display: block;
@@ -277,6 +275,15 @@ footer a {
     padding-top: 0.8em;
 }
 
+.mainHobby p>a{
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.mainHobby p>a:hover {
+    color: var(--accent);
+}
+
 .mainHobby table {
     margin-top: 2em;
     border-collapse: collapse;
@@ -366,7 +373,7 @@ footer a {
 }
 
 .button:hover {
-    transform: translateY(3px);
+    transform: translateY(-3px);
 }
 
 .socialLinks{
