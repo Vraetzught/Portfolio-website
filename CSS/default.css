@@ -155,8 +155,9 @@ footer a {
 .sidebar {
     background-color: var(--primary);
     border-right: 0.3em solid var(--accent);
-    height: 100vh;
+    height: auto;
     padding: 2em;
+    padding-bottom: 0;
     width: 100%;
 }
 
