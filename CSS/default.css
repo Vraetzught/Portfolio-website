@@ -85,6 +85,10 @@ footer {
     align-items: center;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 .copyright {
     font-weight: 600;
     margin-left: 2em;
