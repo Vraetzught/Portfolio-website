@@ -215,16 +215,47 @@ footer {
 
 /* ERVARING CONTENT */
 .mainExp {
-    padding: 7.5em 2em 0 2em;
+    padding: 7.5em 2em 6em 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
 }
 
-/* --- placeholder --- */
+.mainExp .leftArticle {
+    grid-column: 1 / span 2;
+}
 
-.mainExp>h1 {
-    display: block;
-    text-align: center;
-    justify-content: space-around;
-    margin: auto;
+.mainExp .rightArticle {
+    grid-column: 2 / span 2;
+}
+
+.mainExp p {
+    padding-top: 0.8em;
+}
+
+.mainExp img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    max-height: 12em;
+    margin: 3.5em auto 0 auto;
+    width: 80%;
+}
+
+.mainExp ul {
+    padding: 1em;
+}
+
+.mainExp a {
+    color: inherit;
+}
+
+.mainExp a:hover {
+    color: var(--accent);
+}
+
+.mainExp a:visited {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* HOBBY CONTENT */
@@ -264,7 +295,8 @@ footer {
 }
 
 .mainHobby img {
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
     width: 95%;
     margin-top: 4.5em;
 }
@@ -347,7 +379,8 @@ footer {
 }
 
 .socialLinks img {
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
     width: 100%;
     max-width: 250px;
 }
