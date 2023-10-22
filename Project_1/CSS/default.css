@@ -238,7 +238,7 @@ footer a {
 
 .mainExp img {
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     max-height: 12em;
     margin: 3.5em auto 0 auto;
     width: 80%;
@@ -276,7 +276,7 @@ footer a {
     padding-top: 0.8em;
 }
 
-.mainHobby p>a{
+.mainHobby p>a {
     color: var(--primary);
     font-weight: 600;
 }
@@ -295,7 +295,8 @@ footer a {
     border: 0.1em dashed var(--accent);
 }
 
-.mainHobby th, .mainHobby td {
+.mainHobby th,
+.mainHobby td {
     padding: 0.5em;
 }
 
@@ -308,7 +309,7 @@ footer a {
 
 .mainHobby img {
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     width: 95%;
     margin-top: 4.5em;
 }
@@ -376,7 +377,7 @@ footer a {
     transform: translateY(-3px);
 }
 
-.socialLinks{
+.socialLinks {
     margin: 2em;
     height: 70vh;
 }
@@ -391,7 +392,7 @@ footer a {
 
 .socialLinks img {
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     width: 100%;
     max-width: 250px;
 }
@@ -399,4 +400,3 @@ footer a {
 .socialLinks>div>a>img:hover {
     transform: translateY(-5px);
 }
-
