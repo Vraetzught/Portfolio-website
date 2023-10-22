@@ -27,9 +27,6 @@ body {
     margin: 0 1em;
 }
 
-.nav-link:hover {
-    color: var(--accent);
-}
 
 .navbar-nav .nav-link.active {
     color: var(--accent);
