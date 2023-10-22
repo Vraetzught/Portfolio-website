@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary: rgb(15, 35, 50);
+    --secondary: rgb(220, 220, 220);
+    --accent: rgb(185, 135, 10);
+}
+
+
+body {
+    font-family: Dosis, Calibri, 'Times New Roman', sans-serif;
+    font-size: 1.3em;
+}
+
+/* NAV-BAR */
+.bg-body-tertiary {
+    background-color: var(--primary) !important;
+}
+
+.navbar-brand img {
+    width: 3em;
+    margin: 0 1em;
+}
+
+.nav-link {
+    color: var(--secondary);
+    margin: 0 1em;
+}
+
+.nav-link:hover {
+    color: var(--accent);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+footer {
+    padding-right: 1em;
+}
+
+.logo-link img {
+    width: 2em;
+}
