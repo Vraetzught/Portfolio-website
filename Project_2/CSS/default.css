@@ -10,10 +10,23 @@
 body {
     font-family: Dosis, Calibri, 'Times New Roman', sans-serif;
     font-size: 1.3em;
+    background-color: var(--secondary);
+}
+
+a.rounded-pill {
+    background-color: var(--primary);
+    border: 3px solid var(--accent);
+    color: var(--accent);
+    font-weight: 600;
+}
+
+a.rounded-pill:hover {
+    background-color: var(--accent);
+    color: var(--primary);
 }
 
 /* NAV-BAR */
-.bg-body-tertiary {
+.navbar {
     background-color: var(--primary) !important;
 }
 
@@ -33,12 +46,29 @@ body {
     text-decoration: underline;
 }
 
+/* HERO BANNER */
+
+/* CARDS */
+.card {
+    width: 20rem;
+    margin: 0 auto;
+}
 
 /* FOOTER */
 footer {
     padding-right: 1em;
+    background-color: var(--primary) !important;
 }
 
 .logo-link img {
     width: 2em;
+}
+
+.bg-body-tertiary.footer {
+    background-color: var(--primary);
+}
+
+.copyright {
+    color: var(--secondary);
+    font-weight: 500;
 }
