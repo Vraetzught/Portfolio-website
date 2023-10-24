@@ -40,6 +40,11 @@ a.rounded-pill:hover {
     margin: 0 1em;
 }
 
+.nav-link:hover:not(.active) {
+    color: var(--accent);
+    transform: scale(1.2);
+}
+
 
 .navbar-nav .nav-link.active {
     color: var(--accent);
