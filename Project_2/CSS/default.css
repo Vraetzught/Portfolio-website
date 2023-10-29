@@ -4,6 +4,7 @@
     --primary: rgb(15, 35, 50);
     --secondary: rgb(220, 220, 220);
     --accent: rgb(185, 135, 10);
+
 }
 
 
@@ -12,6 +13,29 @@ body {
     font-size: 1.3em;
     background-color: var(--secondary);
 }
+
+a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.card-title {
+    color: var(--accent);
+}
+
+.card:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.badge {
+    background-color: var(--secondary);
+    border: 2px solid var(--accent);
+    color: var(--accent);
+    font-size: 1.2em;
+    margin-right: 1em;
+}
+
+
 
 a.rounded-pill {
     background-color: var(--primary);
@@ -23,6 +47,12 @@ a.rounded-pill {
 a.rounded-pill:hover {
     background-color: var(--accent);
     color: var(--primary);
+}
+
+.title {
+    color: var(--accent);
+    border-bottom: 0.2rem solid var(--accent);
+    text-transform: uppercase;
 }
 
 /* NAV-BAR */
@@ -52,11 +82,70 @@ a.rounded-pill:hover {
 }
 
 /* HERO BANNER */
+.text-body-emphasis {
+    text-transform: uppercase;
+}
+
+.text-muted>strong {
+    color: var(--accent);
+}
 
 /* CARDS */
 .card {
     width: 20rem;
     margin: 0 auto;
+}
+
+/* CV */
+.sidebar {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 5px solid var(--accent);
+    border-radius: 10px;
+}
+
+.talen {
+    width: 100%;
+}
+
+.level {
+    width: 60%;
+}
+
+.accordion-button {
+    font-weight: 600;
+}
+
+
+.accordion-container {
+    padding: 0 0.5em;
+}
+
+.accordion-item {
+    padding: 0;
+}
+
+.accordion-body {
+    font-size: 0.8em;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--primary);
+    color: var(--accent);
+    box-shadow: 0 0 0 0.25rem rgba(185, 135, 10, 0.5);
+}
+
+.ervaring-image:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.modal-link {
+    color: var(--primary);
+    text-decoration: underline;
 }
 
 /* FOOTER */
