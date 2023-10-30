@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="Images/Logo_doorzichtig.png" alt="NB Portfolio logo">
@@ -36,6 +36,49 @@
         </div>
     </nav>
 
+    <main class="container">
+        <div class="row my-4">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="naam" class="form-label">Naam</label>
+                        <input type="text" class="form-control" id="naam" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="voornaam" class="form-label">Voornaam</label>
+                        <input type="text" class="form-control" id="voornaam" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailadress" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="emailadress" aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text">Uw e-mailadres wordt nooit gedeeld met derden.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="skillSelect" class="form-label">In welke skills bent u
+                            ge&euml;nteresseerd?</label>
+                        <select class="form-select" id="skillSelect">
+                            <option selected>Klik hier voor opties</option>
+                            <option value="sql">Database/SQL</option>
+                            <option value="python">Python</option>
+                            <option value="statweb">Frontend Web (Statisch)</option>
+                            <option value="webJS">Fontend Web (Dynamisch / met JS)</option>
+                            <option value="dotnet">App development (C# / .NET)</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="textContent" class="form-label">Waar kan ik mee helpen?</label>
+                        <textarea class="form-control" id="textContent" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn rounded-pill">SUBMIT</button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+
+            </div>
+        </div>
+    </main>
 
     <div class="footer" data-bs-theme="dark">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-4 mt-4">

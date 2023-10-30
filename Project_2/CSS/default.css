@@ -37,14 +37,14 @@ a {
 
 
 
-a.rounded-pill {
+.rounded-pill {
     background-color: var(--primary);
     border: 3px solid var(--accent);
     color: var(--accent);
     font-weight: 600;
 }
 
-a.rounded-pill:hover {
+.rounded-pill:hover {
     background-color: var(--accent);
     color: var(--primary);
 }
@@ -57,7 +57,7 @@ a.rounded-pill:hover {
 
 /* NAV-BAR */
 .navbar {
-    background-color: var(--primary) !important;
+    background-color: var(--primary);
 }
 
 .navbar-brand img {
@@ -94,6 +94,10 @@ a.rounded-pill:hover {
 .card {
     width: 20rem;
     margin: 0 auto;
+}
+
+.card-body {
+    font-size: 0.8em;
 }
 
 /* CV */
@@ -151,7 +155,7 @@ a.rounded-pill:hover {
 /* FOOTER */
 footer {
     padding-right: 1em;
-    background-color: var(--primary) !important;
+    background-color: var(--primary);
 }
 
 .logo-link img {
