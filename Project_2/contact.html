@@ -39,21 +39,21 @@
     <main class="container">
         <div class="row my-4">
             <div class="col-md-6">
-                <form>
-                    <div class="mb-3">
+                <form action="#" method="post">
+                    <div class="mb-5">
                         <label for="naam" class="form-label">Naam</label>
                         <input type="text" class="form-control" id="naam" required>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-5">
                         <label for="voornaam" class="form-label">Voornaam</label>
                         <input type="text" class="form-control" id="voornaam" required>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-5">
                         <label for="emailadress" class="form-label">E-mail</label>
                         <input type="email" class="form-control" id="emailadress" aria-describedby="emailHelp" required>
                         <div id="emailHelp" class="form-text">Uw e-mailadres wordt nooit gedeeld met derden.</div>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-5">
                         <label for="skillSelect" class="form-label">In welke skills bent u
                             ge&euml;nteresseerd?</label>
                         <select class="form-select" id="skillSelect">
@@ -65,18 +65,26 @@
                             <option value="dotnet">App development (C# / .NET)</option>
                         </select>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-5">
                         <label for="textContent" class="form-label">Waar kan ik mee helpen?</label>
                         <textarea class="form-control" id="textContent" rows="3"></textarea>
                     </div>
-
-                    <button type="submit" class="btn rounded-pill">SUBMIT</button>
+                    <div class="d-flex justify-content-center mt-5">
+                        <button type="submit" class="btn rounded-pill px-4 py-2">SUBMIT</button>
+                    </div>
                 </form>
             </div>
 
-            <div class="col-md-6">
+            <section class="col-md-6 text-end">
+                <a class="mx-3 text-body-secondary logo-link-big" href="https://github.com/Vraetzught" target="_blank">
+                    <img src="Images/github_square_blauw.png" alt="link naar mijn GitHub">
+                </a>
 
-            </div>
+                <a class="mx-3 text-body-secondary logo-link-big" href="https://linkedin.com/in/klaas-brems"
+                    target="_blank">
+                    <img src="Images/LinkedIn_blauw.png" alt="link naar mijn LinkedIn">
+                </a>
+            </section>
         </div>
     </main>
 
@@ -85,18 +93,7 @@
             <div class="col-md-4 d-flex align-items-center">
                 <span class="mb-3 mb-md-0 text-body-secondary copyright">&copy; 2023 Nikolaas Brems</span>
             </div>
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3">
-                    <a class="text-body-secondary logo-link" href="https://github.com/Vraetzught" target="_blank">
-                        <img src="Images/github_square_grijs.png" alt="link naar mijn GitHub">
-                    </a>
-                </li>
-                <li class="ms-4">
-                    <a class="text-body-secondary logo-link" href="https://linkedin.com/in/klaas-brems" target="_blank">
-                        <img src="Images/LinkedIn_grijs.png" alt="link naar mijn LinkedIn">
-                    </a>
-                </li>
-            </ul>
+
         </footer>
     </div>
 

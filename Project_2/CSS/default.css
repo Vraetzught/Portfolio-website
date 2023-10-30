@@ -8,6 +8,7 @@
 }
 
 
+
 body {
     font-family: Dosis, Calibri, 'Times New Roman', sans-serif;
     font-size: 1.3em;
@@ -153,6 +154,37 @@ a {
     text-decoration: underline;
 }
 
+/* CONTACT */
+form {
+    min-height: 81vh;
+}
+
+.form-control,
+.form-select {
+    background-color: var(--secondary);
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid var(--primary);
+}
+
+.form-control:hover,
+.form-select:hover {
+    border-bottom: 2px solid var(--accent);
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: inherit;
+    border-color: var(--accent);
+    box-shadow: none;
+    cursor: text;
+}
+
+.logo-link-big img {
+    width: 40%;
+    padding-top: 5em;
+}
+
 /* FOOTER */
 footer {
     padding-right: 1em;
@@ -163,9 +195,7 @@ footer {
     width: 2em;
 }
 
-.bg-body-tertiary.footer {
-    background-color: var(--primary);
-}
+
 
 .copyright {
     color: var(--secondary);
