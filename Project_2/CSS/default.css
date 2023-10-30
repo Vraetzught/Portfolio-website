@@ -47,6 +47,7 @@ a {
 .rounded-pill:hover {
     background-color: var(--accent);
     color: var(--primary);
+    border-color: var(--accent);
 }
 
 .title {
