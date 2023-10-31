@@ -39,21 +39,21 @@
     <main class="container">
         <div class="row my-4">
             <div class="col-md-6">
-                <form action="#" method="post" class="mt-4">
-                    <div class="mb-5">
+                <form action="PHP/contact.php" method="post" class="mt-4" target="_blank">
+                    <div class="mb-5 forminput">
                         <label for="naam" class="form-label">Naam</label>
                         <input type="text" class="form-control" id="naam" required>
                     </div>
-                    <div class="mb-5">
+                    <div class="mb-5 forminput">
                         <label for="voornaam" class="form-label">Voornaam</label>
                         <input type="text" class="form-control" id="voornaam" required>
                     </div>
-                    <div class="mb-5">
+                    <div class="mb-5 forminput">
                         <label for="emailadress" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="emailadress" aria-describedby="emailHelp" required>
-                        <div id="emailHelp" class="form-text">Uw e-mailadres wordt nooit gedeeld met derden.</div>
+                        <input type="email" class="form-control" id="emailadress" aria-describedby="emailHelp" required
+                            placeholder="Uw e-mailadres wordt nooit gedeeld met derden.">
                     </div>
-                    <div class="mb-5">
+                    <div class="mb-5 forminput">
                         <label for="skillSelect" class="form-label">In welke skills bent u
                             ge&euml;nteresseerd?</label>
                         <select class="form-select" id="skillSelect">
@@ -65,7 +65,7 @@
                             <option value="dotnet">App development (C# / .NET)</option>
                         </select>
                     </div>
-                    <div class="mb-5">
+                    <div class="mb-5 forminput">
                         <label for="textContent" class="form-label">Waar kan ik mee helpen?</label>
                         <textarea class="form-control" id="textContent" rows="3"></textarea>
                     </div>
