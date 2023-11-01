@@ -13,14 +13,13 @@ body {
     font-family: Dosis, Calibri, 'Times New Roman', sans-serif;
     font-size: 1.3em;
     background-color: var(--secondary);
+    color: var(--primary);
 }
 
-a {
+.card>a {
     text-decoration: none;
     color: var(--secondary);
 }
-
-
 
 .badge {
     background-color: var(--secondary);
@@ -155,6 +154,54 @@ a {
 .modal-link {
     color: var(--primary);
     text-decoration: underline;
+}
+
+.carousel-item>img {
+    border-radius: 20px;
+}
+
+.carousel-caption {
+    background-color: var(--secondary);
+    border-radius: 20px;
+}
+
+.carousel-caption>h5 {
+    color: var(--accent);
+    text-transform: uppercase;
+}
+
+.carousel-caption>p {
+    color: var(--primary);
+}
+
+.hobbyText {
+    border: 1px solid var(--primary);
+    border-radius: 15px 50px;
+    box-shadow: 5px 10px 5px rgba(15, 35, 50, 0.7);
+    color: var(--primary);
+    min-height: 100%;
+}
+
+.subtitle {
+    font-weight: 600;
+    border-bottom: 2px solid var(--accent);
+    width: 50%;
+}
+
+.rounded-corners {
+    border-radius: 15px 50px;
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.hobbyLink {
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.hobbyLink:hover {
+    color: var(--accent);
 }
 
 form {
