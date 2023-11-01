@@ -253,6 +253,14 @@ form>div>label {
     transform: translateY(-1rem);
 }
 
+.footer {
+    width: 100%;
+}
+
+.bottom-footer {
+    position: absolute;
+    bottom: 0;
+}
 
 footer {
     padding-right: 1em;
