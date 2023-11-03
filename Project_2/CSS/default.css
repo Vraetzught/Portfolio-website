@@ -242,6 +242,9 @@ form>div>label {
     cursor: text;
 }
 
+.logo-link-big {
+    text-decoration: none;
+}
 
 .logo-link-big img {
     width: 40%;
