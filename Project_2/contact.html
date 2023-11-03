@@ -42,21 +42,21 @@
                 <form action="php/contact.php" method="post" class="mt-4" target="_blank">
                     <div class="mb-5 forminput">
                         <label for="naam" class="form-label">Naam</label>
-                        <input type="text" class="form-control" id="naam" required>
+                        <input type="text" class="form-control" id="naam" name="naam" required>
                     </div>
                     <div class="mb-5 forminput">
                         <label for="voornaam" class="form-label">Voornaam</label>
-                        <input type="text" class="form-control" id="voornaam" required>
+                        <input type="text" class="form-control" id="voornaam" name="voornaam" required>
                     </div>
                     <div class="mb-5 forminput">
                         <label for="emailadress" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="emailadress" required
+                        <input type="email" class="form-control" id="emailadress" name="emailadress" required
                             placeholder="Uw e-mailadres wordt nooit gedeeld met derden.">
                     </div>
                     <div class="mb-5 forminput">
                         <label for="skillSelect" class="form-label">In welke skills bent u
                             ge&iuml;nteresseerd?</label>
-                        <select class="form-select" id="skillSelect">
+                        <select class="form-select" id="skillSelect" name="skillSelect">
                             <option selected>Klik hier voor opties</option>
                             <option value="sql">Database/SQL</option>
                             <option value="python">Python</option>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="mb-5 forminput">
                         <label for="textContent" class="form-label">Waar kan ik mee helpen?</label>
-                        <textarea class="form-control" id="textContent" rows="3"></textarea>
+                        <textarea class="form-control" id="textContent" name="textContent" rows="3"></textarea>
                     </div>
                     <div class="d-flex justify-content-center mt-5">
                         <button type="submit" class="btn rounded-pill px-4 py-2">SUBMIT</button>

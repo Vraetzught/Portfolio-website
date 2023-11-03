@@ -5,9 +5,9 @@
     $skill = $_POST["skillSelect"];
     $message = $_POST["textContent"];
 
-    $to = "klaasbrems@gmail.com"; 
+    $to = "info@nb-portfolio.be"; 
 
-    $email_subject = "New contact request submitted by $firstname $name";
+    $email_subject = "New contact request submitted by $voornaam $naam";
 
     $headers =  "From: $email" . "\r\n" .
                 "Reply-To: $email" . "\r\n" .
@@ -19,7 +19,7 @@
     $message_body .= "Skills interesse: $skill\n";
     $message_body .= "Bericht:\n$message";
 
-    if (mail($to, $email_subject, $email_body, $headers)) { 
+    if (mail($to, $email_subject, $message_body, $headers)) { 
         echo "Bedankt voor uw bericht. We nemen zo snel mogelijk contact met u op.";
     } else {
         echo "Er is een probleem opgetreden bij het verzenden van het bericht. Probeer het later opnieuw.";
